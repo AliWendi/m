@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #FFF6EE;
+    height: fit-content;
+}
+.container h3{
+    font-size: 200%;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+.song-container{
+    display: flex;
+    margin-left: 80px;
+    width: 800px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgba(62, 23, 39, 0);
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #FFF6EE;
+}
+.song-container img{
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.song-container h6{
+    font-size: 200%;
+    margin-left: 20px;
+    color: #FFF6EE;
+}
+.song-container h6:hover{
+   color: #f67e82;
+}

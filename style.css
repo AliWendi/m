@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri ;
+    font-weight:bold;
+    /* border: red 2px solid; */
+}
+
+::selection{
+    color: #D86072;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #D86072;
+    transition-duration: 500ms;
+}
+a span{
+    font-size: 75%;
+}
+nav{
+    background-color: #FFF6EE;
+    font-size: 120%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+nav img{
+    height: 60px;
+    margin-right: 20px;
+}
+nav ul{
+    list-style-type:none;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li{
+    margin-left: 3%;
+}
+
+nav ul li a:hover{
+   color: #c14384;
+   color: #f67e82;
+   text-shadow: 0px 0px 25px rgba(123, 18, 18, 0.345);
+}
+
+
+body{
+    background-color: #262628;
+    height: 1120px;
+    position: relative;
+}
+
+.headerTitele{
+    margin-top: 2.8%;
+    margin-top: 60px;
+    width: 65%;
+    font-size: 220%;
+    color: #FFF6EE;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.headerTitele h3{
+    margin-top: 0.5%;
+    width: 60%;
+    font-size:120%;
+    color: #FFF6EE;
+}
+
+
+.headerTitele img{
+    width: 25%;
+    height: 30%;
+}
+
+.traksInHome{
+    color: rgba(255, 255, 255, 0.057);
+    width: 80%;
+    font-size: 100%;
+    font-weight: normal;
+    margin-left: 8%;
+    /* margin-top: 10%; */
+    z-index: 0;
+    /* position: absolute; */
+    margin-top: -18%;
+    user-select: none;
+}
+.enterButtom{
+    margin-top: -2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+}
+.enterButtom p{
+    color: #FFF6EE;
+    margin-top: 6%;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.2;
+    font-weight:500;
+    min-width: 300px;
+    font-size: 120%;
+    margin-right: 10%;
+}
+
+.enterButtom .inline-prase{
+    color: #D86072;
+    font-weight: bold;
+}
+
+.enterButtom .first-word{
+
+    font-weight: bold;
+    font-size: large;
+    font-size: 120%;
+}
+
+
+.enterButtom img{
+
+    width: 15%;
+    /* position: absolute;
+    left: 3%; */
+    min-width: 120px;
+
+}
+.enterButtomDiv{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.enterButtomDiv button{
+    /* width: 15%;
+    height: 15%; */
+    margin-top: 2.5%;
+    padding: 10px 17px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.363);
+    background-color: #D86072;
+    color: wheat;
+    border-radius: 3px;
+    border: none;
+    transition-duration: 700ms;
+    font-size: 130%;
+}
+
+.enterButtomDiv button:hover{
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.9);
+    background-color: #f67e82;
+    color: rgb(245, 225, 189);
+}
+
+.enterButtomDiv button:active{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    color: rgb(104, 67, 5);
+}
+/* .firstSap{
+    flex-wrap: wrap;
+    height: 12%;
+    width: 100%;
+    background-color: #f67e825a;
+    position:absolute;
+    bottom: 0px;
+    display: flex;
+} */
+.firstSap p{
+    color: #FFF6EE;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.traksInHome img{
+    margin-left: -200px;
+    z-index: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.cards{
+    background-color: #FFF6EE;
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 10%;
+    border-radius: 4px;
+    font-size: 16px;
+    transition-duration: 1500ms;
+}
+
+.cards:hover{
+    background-color: #D86072;
+    border-radius: 6px;
+}
+
+.songsList  ul li a::before{
+    color: red;
+    width: 10px;
+}
+
+.songsList  ul li a{
+    color: white;
+    font-size: 100%;
+    margin-top: 2%;
+    width: 50%;
+    text-decoration: none;
+    margin-left: 25%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    transition-duration: 200ms;
+}
+
+.songsList  ul li a:hover{
+    color: #D86072;
+}
+
+.songsList ul{
+    margin-top: 300px;
+    list-style: none;
+}
+
+footer{
+    /* border: rgb(197, 144, 144) 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    width: calc(100% - 40px) ;
+    height: 150px;
+    background-color:#FFF6EE;
+}
+.footer-titele{
+    justify-content: space-between;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    /* right: 50px; */
+    font-weight: bolder;
+    color: #262628;
+}
+
+.footer-titele{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 5%;
+    font-size: 100%;
+    color:#262628;
+}
+
+.footer-titele p{
+    color: #262628;
+    position: relative;
+    bottom: 5%;
+    left: 5%;
+    align-self: center;
+}
+.footer-content{    
+    color: #262628;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer-right-content{
+    color: #262628;
+    position: relative;
+    right: 10px;
+}
+
+.container{
+    display: flex;
+}
+.trak{
+    margin: 5%;
+}
+
+.trak-one{
+    color: #FFF6EE;
+    width: 50%;
+}
+
+.trak-lines{
+    font-size: 200%;
+    margin-top: 10px;
+}
+
+.song-info{
+    display: flex;
+    align-items:end;
+    background-color: #FFF6EE;
+    width: fit-content;
+    color: #D86072;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.trak-one img{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.side-backround-traks{
+    color: rgba(47, 47, 47, 0.661);
+    position: absolute;
+    right: 2px;
+    top: 130px;
+    text-align:center;
+    width: 50%;
+    font-size: 230%;
+    line-height: 35px;
+    z-index: -1;
+}
+
+.pos-2{
+    position: relative;
+    left: 40px;
+}
+
+.pos-3{
+    position: relative;
+    left: 70px;
+}
+.pos-4{
+    position: relative;
+    left: 90px;
+}
+.pos-5{
+    position: relative;
+    left: 110px;
+}
+.pos-6{
+    position: relative;
+    left: 200px;
+}.pos-7{
+    position: relative;
+    left: 380px;
+}.pos-8{
+    position: relative;
+    left: 440px;
+}
+.pos-r{
+    position: relative;
+    right: -100px;
+}
+
+.long-body{
+    height: 1900px;
+}
+.long-long-body{
+    height: 3000px;
+}
+
+.side-the-syles{
+    color: #FFF6EE;
+    position: relative;
+    top: 45px;
+    left: 210px;
+    font-size: 200%;
+    width: 300px;
+}
+
+.music-style-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 470px;
+    height: 160px;
+    border-radius: 10px;
+    position: relative;
+    right: 90px;
+    top: -80px;
+    float: right;
+}
+.music-style-section ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+    padding: 25px 15px;
+}
+.music-style-section ul li{
+    text-decoration:none;
+    height: fit-content;
+    padding: 4px;
+    border-radius: 4px;
+    /* align-content: center; */
+}
+.music-style-section ul li a{
+    text-decoration: none;
+    border-radius: 6px;
+    transition-duration: 200ms;
+}
+.music-style-section ul li a:hover{
+    text-decoration: underline;
+    border-radius: 6px;
+    width: -2px;
+}
+
+.contact-me{
+    margin-top: 40px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-self: center;
+}
+.contact-me li{
+    width: 600px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+}
+.contact-me li a{
+    text-decoration: none;
+    color: #FFF6EE;
+    font-size: 200%;
+}
+.contact-me li a:hover{
+    text-decoration: underline;
+    color: #FFF6EE;
+    font-size: 200%;
+}
+.contact-me ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.about-text{
+    margin-top: 70px;
+    margin-bottom: -50px;
+    color: #FFF6EE;
+    display: flex;
+    justify-self: center;
+    font-size: 140%;
+    width: 600px;
+    text-align: justify;
+}
+
+.long-card{
+    background-color: #FFF6EE;
+    color: #262628;
+    padding: 15px 50px;
+}
+
+.med-card{
+    background-color: #262628;
+    color: #FFF6EE;
+    border: #FFF6EE 3px solid;
+    padding: 12px 37px;
+}
+.med-card-fill{
+    background-color: #FFF6EE;
+    color: #262628;
+    padding: 15px 40px;
+}
+
+.short-card{
+    background-color: #262628;
+    color: #FFF6EE;
+    border: #FFF6EE 3px solid;
+    padding: 12px 17px;
+}
+
+
+/* .trak-color-1{
+    color: #438ac1;
+}
+.trak-color-2{
+    color: #43bbc1;
+}
+.trak-color-3{
+    color: #c14386;
+}
+.trak-color-4{
+    color: #43c171;
+} */
